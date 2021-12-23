@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect, useContext, createContext } from "react";
 export const Hooks = createContext();
 const Index = (props) => {
@@ -6,8 +7,8 @@ const Index = (props) => {
   const [barMobile, setBarMobile] = useState(false);
   const [wallet_, setWallet_] = useState(false);
   const [datas, setDatas] = useState([]);
-  const [publicKey, setPublicKey] = useState()
-  const [candyM, setCandyM] = useState()
+  const [publicKey, setPublicKey] = useState();
+  const [candyM, setCandyM] = useState();
   const value = {
     scroll,
     setScroll,
@@ -19,8 +20,10 @@ const Index = (props) => {
     setTimer,
     datas,
     setDatas,
-    candyM, setCandyM,
-    publicKey, setPublicKey
+    candyM,
+    setCandyM,
+    publicKey,
+    setPublicKey,
   };
   return <Hooks.Provider value={value}>{props.children}</Hooks.Provider>;
 };

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { Suspense, useContext } from "react";
 // import Navbar from "components/Layouts/Navbar";
 import { Hooks } from "providers";

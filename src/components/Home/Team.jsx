@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import Collapse from "assets/img/icons/collapse.png";
 import Data from "dummy/faq";

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import Discord from "assets/img/icons8-discord.svg";
 import Twitter from "assets/img/icons8-twitter.svg";
