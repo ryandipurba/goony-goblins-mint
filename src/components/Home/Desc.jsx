@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useContext } from "react";
 import { Hooks } from "providers";
 import Dot from "assets/img/sevenDeadlySins/icons/plus.gif";

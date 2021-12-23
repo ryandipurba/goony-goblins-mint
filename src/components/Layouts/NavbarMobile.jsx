@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useContext, useEffect } from "react";
 import { Hooks } from "providers";
 import Connect from "components/Transactions";
